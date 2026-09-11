@@ -1,4 +1,4 @@
-# Meu Portifólio 👨‍💻🚀
+# Meu Portfólio 👨‍💻🚀
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -8,7 +8,7 @@
 
 ---
 
-## 💻 Sobre o Portifólio
+## 💻 Sobre o Portfólio
 
 Esse é o repositório do meu **Portfólio Web**, que funciona basicamente como meu hub próprio e currículo interativo. O objetivo principal é compartilhar um pouco sobre quem eu sou, as tecnologias que uso e mostrar meus projetos em um só lugar.
 
