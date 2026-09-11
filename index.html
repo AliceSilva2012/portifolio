@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Meu Portfólio</title>
+</head>
+<body>
+    <div class="particulas"></div>
+
+    <nav class="navegacao">
+        <ul class="menu">
+            <li>
+                <a href="#inicio" class="menu-link">Início</a>
+            </li>
+            <li>
+                <a href="#sobre" class="menu-link">Sobre</a>
+            </li>
+            <li>
+                <a href="#projetos" class="menu-link">Projetos</a>
+            </li>
+            <li>
+                <a href="#contatos" class="menu-link">Contato</a>
+            </li>
+        </ul>
+    </nav>
+    <main id="inicio" class="cabecalho">
+        <img src="./img/pfp.jpeg" alt="Foto de perfil de Alice Silva" class="foto-perfil">
+        <h1>Alice Silva Pereira</h1>
+        <p class="cabecalho-sub-titulo">Estudante de programação.</p>
+    </main>
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">Olá! Meu nome é Alice Silva Pereira, tenho 14 anos e sou estudante de programação. Estou sempre em busca de novos projetos e oportunidades para aprimorar minhas habilidades na área de desenvolvimento web.</p>
+        </div>
+        <h2 class="sobre-titulo">Minha Jornada</h2>
+        <div class="sobre-caixa sobre-caixa-grid">
+            <img class="sobre-imagem" src="./img/sobre.jpeg" alt="Foto sobre minha jornada">
+            <div class="sobre-conteudo-texto">
+                <p class="sobre-paragrafo">Minha jornada na programação começou quando decidi aprender HTML, CSS e JavaScript por conta própria. Desde então, venho estudando, criando projetos e colocando em prática tudo o que aprendo.</p>
+                <p class="sobre-paragrafo">Estou sempre buscando evoluir minhas habilidades e aprender novas tecnologias. Tenho interesse em seguir na área de desenvolvimento Full-Stack, unindo conhecimentos de front-end e back-end para criar soluções completas.</p>
+            </div>
+        </div>
+    </section>
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Projetos</h2>
+        <p class="projetos-sub-titulo">Meus primeiros projetos em cena!</p>
+        <div class="projetos-caixa">
+            <div class="projetos-card">
+                <img src="./img/projeto1.png" alt="Preview do PixelHub" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">PixelHub</h3>
+                    <p class="info-projetos-descricao">O PixelHUB é uma página web em formato de catálogo de jogos, onde diversos títulos são exibidos por meio de cards gerados dinamicamente a partir de um array em JavaScript, apresentando informações como imagem, gênero, sinopse, avaliações e link para o site oficial. O projeto destaca conceitos de manipulação do DOM, organização de dados em objetos, responsividade e estilização inspirada na identidade visual de cada jogo.</p>
+                    <p class="link-projetos">
+                        <a href="https://pixelhhub.netlify.app/" target="_blank" rel="noopener noreferrer">Teste no seu navegador!</a> | <a href="https://github.com/AliceSilva2012/pixelhub" target="_blank" rel="noopener noreferrer">Veja no GitHub!</a>
+                    </p>
+                </div>
+            </div>
+            <div class="projetos-card">
+                <img src="./img/projeto2.png" alt="Preview do SenseFire" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">SenseFire</h3>
+                    <p class="info-projetos-descricao">O SenseFire é uma aplicação web institucional desenvolvida para apresentar um sistema IoT focado na prevenção e combate a incêndios florestais. A interface exibe o funcionamento e o fluxo de monitoramento dos sensores, a contextualização da solução tecnológica e relatórios em tempo real. O projeto se destaca pela construção de um layout adaptativo utilizando CSS Grid e Flexbox, media queries e interatividade com JavaScript.</p>
+                    <p class="link-projetos">
+                        <a href="https://sensefire.netlify.app" target="_blank" rel="noopener noreferrer">Teste no seu navegador!</a> | <a href="https://github.com/AliceSilva2012/projetoSTEAM" target="_blank" rel="noopener noreferrer">Veja no GitHub!</a>
+                    </p>
+                </div>
+            </div>
+            <div class="projetos-card">
+                <img src="./img/projeto4.png" alt="Preview do DeliveryHub" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">DeliveryHub</h3>
+                    <p class="info-projetos-descricao">O DeliveryHUB é um projeto de desenvolvimento front-end que simula o site de uma hamburgueria delivery. O objetivo é oferecer uma interface moderna, funcional e intuitiva para apresentar a marca, exibir o cardápio e facilitar a realização de pedidos por meio da integração com o WhatsApp. O projeto foi desenvolvido com foco na aplicação de HTML e CSS semântico, navegação por seções e boa experiência do usuário.</p>
+                    <p class="link-projetos">
+                        <a href="https://deliveryhhub.netlify.app" target="_blank" rel="noopener noreferrer">Teste no seu navegador!</a> | <a href="https://github.com/AliceSilva2012/deliveryhub" target="_blank" rel="noopener noreferrer">Veja no GitHub!</a>
+                    </p>
+                </div>
+            </div>
+            <div class="projetos-card">
+                <img src="./img/projeto3.png" alt="Preview da Pokédex" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Pokédex</h3>
+                    <p class="info-projetos-descricao">A Pokédex é um projeto que permite pesquisar Pokémons por nome ou número, navegar sequencialmente por botões de anterior/próximo e exibir informações e sprites animados dinamicamente. Praticou-se manipulação de DOM, consumo de APIs com fetch, programação assíncrona (async/await), tratamento básico de erros e criação de uma interface responsiva inspirada nos jogos clássicos.</p>
+                    <p class="link-projetos">
+                        <a href="https://hubpokedex.netlify.app" target="_blank" rel="noopener noreferrer">Teste no seu navegador!</a> | <a href="https://github.com/AliceSilva2012/pokedex" target="_blank" rel="noopener noreferrer">Ver no GitHub!</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>      
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulo">Entre em Contato</h2>
+        <p class="contatos-sub-titulo">Entre em contato via WhatsApp.</p>
+        
+        <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
+            <div class="grupo-form">
+                <input type="text" placeholder="Seu Nome" class="campo-form" id="nome" required>
+            </div>
+            <div class="grupo-form">
+                <textarea class="campo-form" placeholder="Digite sua mensagem aqui..." id="menssagem" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="botao-form">Enviar para WhatsApp</button>
+        </form>
+    </section>
+
+    <script>
+        function enviarWhats(event) {
+            event.preventDefault();
+            const nome = document.getElementById("nome").value;
+            const menssagem = document.getElementById("menssagem").value;
+            const telefone = '5511917953772';
+
+            const texto = `Olá! Meu nome é ${nome}. ${menssagem}`;
+            const menssagemFormatada = encodeURIComponent(texto);
+            const url = `https://wa.me/${telefone}?text=${menssagemFormatada}`;
+
+            window.open(url, '_blank'); 
+        }
+    </script>
+</body>
+</html>
