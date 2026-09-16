@@ -37,7 +37,7 @@ A ideia foi montar um espaço com a minha cara: um design moderno (que por algum
 
 ## 🌎 Dá uma olhada em como ficou! 
 
-- **Acessar Portfólio:** [VEJA MEU PORTIFÓLIO NO SEU NAVEGADOR!](https://hubportifolio.netlify.app)
+- **Acessar Portfólio:** [VEJA MEU PORTFÓLIO NO SEU NAVEGADOR!](https://hubportifolio.netlify.app)
 ---
 
 ## 📁 Estrutura do Projeto
