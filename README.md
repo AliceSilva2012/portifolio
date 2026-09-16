@@ -47,4 +47,4 @@ Se quiser dar uma espiada em como organizei o código:
 ```text
 ├── index.html     # O coração da página
 ├── styles.css     # Toda a mágica do CSS e responsividade 
-└── scripts.js     # A fonte de como funciona o contato via WhatsApp
+└── scripts.js     # Integração com a API do WhatsApp para envio de mensagens direto do formulário de contato.
