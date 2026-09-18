@@ -19,7 +19,6 @@ html {
 }
 
 body {
-    background-color: var(--escuro);
     color: var(--claro);
 }
 
@@ -74,7 +73,12 @@ body {
     animation: flutuar 3s ease-in-out infinite;
 }
 
+section {
+    background: transparent !important;
+}
+
 .cabecalho {
+    background: transparent !important;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -87,6 +91,7 @@ h1 {
     color: var(--primaria);
     font-weight: bold;
     margin: 10px;
+    margin-top: 2rem;
 }
 
 .cabecalho-sub-titulo {
@@ -273,20 +278,6 @@ h1 {
     box-shadow: 0 5px 15px rgba(79, 70, 229, 0.4);
 }
 
-.particulas {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.5; 
-    background:
-    radial-gradient(circle at 10% 20%,var(--primaria) 0%, transparent 20%),
-    radial-gradient(circle at 90% 80%,var(--secundaria) 0%, transparent 20%),
-    var(--maisEscuro);
-}
-
 @keyframes flutuar {
     0%, 100% {
         transform: translateY(0);
@@ -294,6 +285,16 @@ h1 {
     50% {
         transform: translateY(-20px);
     }
+}
+
+#ps2-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
 }
 
 @media screen and (max-width: 768px) {
@@ -321,4 +322,4 @@ h1 {
     .projetos-caixa {
         grid-template-columns: 1fr;
     }
-}
+} 
