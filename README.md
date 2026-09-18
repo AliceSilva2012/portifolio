@@ -45,7 +45,7 @@ A ideia foi montar um espaço com a minha cara: um design moderno e nostálgico 
 ## 📁 Estrutura do Projeto
 
 ```text
-├── img/                  # Imagens da galeria e fotos de perfil
+├── img/                  # Imagens exibidas
 │   ├── pfp.jpeg
 │   ├── sobre.jpeg
 │   ├── projeto1.png
